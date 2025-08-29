@@ -63,6 +63,18 @@ Just open **index.html** in your browser.
 
 ---
 
+## 🎯 Future Improvements
+
+* 🍬 Add **special candies** (striped, wrapped, color bomb).
+* 🔊 Add **sound effects** and background music.
+* 🎞️ Add **animations** for candy swaps and clearances.
+* 📱 Make the game **mobile-friendly** with touch controls.
+* 💾 Add **high score saving** and leaderboard.
+* ⏳ Add **timed mode** or challenge levels.
+* 🎮 Add **different difficulty levels** for more fun.
+
+---
+
 ## 🙌 Credits
 
 Made with ❤️ using sweet pixels 🍬
