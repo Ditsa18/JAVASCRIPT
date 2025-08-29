@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🍬 Candy Crush 🍬</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">
+      <img src="images/candy3.png" alt="candy" class="title-candy">
+      Candy Crush
+      <img src="images/candy3.png" alt="candy" class="title-candy">
+    </h1>
+  </header>
+
+  <main class="layout">
+    <section class="board-wrap">
+      <div id="board" class="board" aria-label="Candy board"></div>
+      <div id="game-over" class="game-over hidden">
+        <h2>Game Over 🍭</h2>
+        <p>No more moves left!</p>
+      </div>
+    </section>
+
+    <aside class="side">
+      <div class="score-card">
+        <div class="score-label">Score</div>
+        <div id="score" class="score-value">0</div>
+      </div>
+
+        <div class="score-card">
+    <div class="score-label">Moves</div>
+    <div id="moves" class="score-value">20</div>
+  </div>
+
+      <div class="rules-card">
+        <h2>Rules</h2>
+        <ul>
+          <li>Match <b>3</b> in a row/column to clear.</li>
+          <li>Match <b>4</b> → <b>Row Clearer</b> booster.</li>
+          <li>Match <b>5</b> → <b>Color Bomb</b> booster.</li>
+          <li>Swap a booster with any candy to activate it.</li>
+          <li>Game ends when no moves remain.</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">Made with sweet pixels 🍭</footer>
+  <script src="script.js"></script>
+</body>
+
+<div id="gameOverPopup" class="popup">
+  <div class="popup-content">
+    <h2>🎮 Game Over!</h2>
+    <p>Your final score: <span id="finalScore"></span></p>
+    <button onclick="restartGame()">🔄 Replay</button>
+  </div>
+</div>
+</html>
