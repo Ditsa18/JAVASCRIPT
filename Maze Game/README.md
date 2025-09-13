@@ -1,3 +1,4 @@
+```
 # 🌀 Maze Runner 🌀
 
 A dark neon-themed **line maze escape game** built with **HTML, CSS, and JavaScript**.  
@@ -67,17 +68,17 @@ maze-runner/
 
 ### 🔮 Preview Screen
 
-![Screenshot_13-9-2025_223558_127 0 0 1](https://github.com/user-attachments/assets/09cbfed4-7eb3-4996-9d35-15d25968bdd2)
+![Screenshot_13-9-2025_223558_127 0 0 1](https://github.com/user-attachments/assets/5be96952-6830-4cbd-a63a-3d05078ddb09)
 
 
 ### 🎮 Gameplay
 
-![Screenshot_13-9-2025_223640_127 0 0 1](https://github.com/user-attachments/assets/5a977a42-5120-4889-a165-1535275200a9)
+![Screenshot_13-9-2025_223640_127 0 0 1](https://github.com/user-attachments/assets/bbf99bd2-c8f8-49f7-8c86-22d42a033a7a)
 
 
 ### 💀 Game Over
 
-![Screenshot_13-9-2025_223825_127 0 0 1](https://github.com/user-attachments/assets/49277261-adab-4da8-a004-1ccd9bb81db3)
+![Screenshot_13-9-2025_223825_127 0 0 1](https://github.com/user-attachments/assets/3653dd87-d268-44cf-bd0d-a5d3e9fb4535)
 
 
 ---
@@ -104,3 +105,4 @@ maze-runner/
 Ditsa Bakshi \[Student]
 
 ---
+
