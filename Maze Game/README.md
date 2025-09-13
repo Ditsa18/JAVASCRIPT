@@ -1,48 +1,73 @@
+# 🌀 Maze Runner
+
+Maze Runner is a browser-based **maze game** where you navigate through procedurally generated mazes, reaching the glowing exit before time runs out. Each level increases the difficulty by making the maze larger.
+
+---
+
+## 🎮 Game Rules
+
+* Use **Arrow Keys** or **WASD** to move the player.
+* Reach the **green exit** before the timer runs out.
+* Each level you complete increases your **score** by the current level number.
+* Each new level generates a **bigger, harder maze**.
+* Timer resets to **60 seconds** at the start of each level.
+
+---
+
+## 🖼 Screenshots
+
+**Preview / Main Screen:**
+![Screenshot_13-9-2025_223558_127 0 0 1](https://github.com/user-attachments/assets/f1ac3c29-3e76-4c8c-ba3c-3a0256b4cae1)
+
+
+**Gameplay:**
+![Screenshot_13-9-2025_223640_127 0 0 1](https://github.com/user-attachments/assets/e9ec9aa9-9bc8-4448-809e-dd6043866f8a)
+
+
+**Game Over Screen:**
+![Screenshot_13-9-2025_223825_127 0 0 1](https://github.com/user-attachments/assets/014beb73-cd74-4e43-9973-0e215c52d170)
+
+
+
+---
+
+## ⚡ Features
+
+* **Procedurally generated mazes** using Depth-First Search algorithm.
+* **Dynamic difficulty**: Maze size increases with each level.
+* **Timer & Score system** to challenge players.
+* **Stylish neon design** with glowing effects for player and exit.
+* **Responsive gameplay** with keyboard controls.
+
+---
+
+## 🛠 How to Play
+
+1. Open `index.html` in your browser.
+2. Press **Start Game**.
+3. Use **Arrow Keys** or **WASD** to navigate through the maze.
+4. Reach the green exit before the timer hits zero.
+5. Your score and level are updated as you progress.
+6. If the timer runs out, the **Game Over screen** appears, and you can restart.
+
+---
+
+## 🎨 Tech Stack
+
+* **HTML5** – Game structure
+* **CSS3** – Neon styling & animations
+* **JavaScript** – Maze generation, player movement, and game logic
+
+---
+
+## 📁 File Structure
+
 ```
-# 🌀 Maze Runner 🌀
-
-A dark neon-themed **line maze escape game** built with **HTML, CSS, and JavaScript**.  
-Guide your glowing orb through the twisting paths, reach the exit before time runs out, and climb through progressively harder mazes!  
-
----
-
-## ✨ Features
-
-* 🌌 **Dark cyber aesthetic** with glowing walls and exit  
-* 🎮 Smooth movement with **Arrow Keys** or **WASD**  
-* ⏱️ **Countdown timer** resets each level  
-* 🏆 **Score system** that increases as you progress  
-* 📈 **Dynamic difficulty** – maze grows larger each level  
-* 💀 **Game Over popup** with restart option  
-* 🎯 Start button that disappears once the game begins  
-
----
-
-## 🎮 How to Play
-
-1. Press the **▶ Start Game** button to begin.  
-2. Use the controls to navigate:
-   * ⬆️ / W → Up  
-   * ⬇️ / S → Down  
-   * ⬅️ / A → Left  
-   * ➡️ / D → Right  
-3. Find the **glowing green exit** before the timer hits zero.  
-4. Every level completed increases your score and difficulty.  
-5. If time runs out → **Game Over** popup will appear.  
-
----
-
-## 📂 Project Structure
-
+Maze-Runner/
+├─ index.html       # Main HTML file
+├─ style.css        # Styling and neon effects
+├─ script.js        # Game logic and maze generation
 ```
-
-maze-runner/
-│── index.html      # Game structure
-│── style.css       # Dark neon theme styles
-│── script.js       # Maze generation & game logic
-│── README.md       # Project documentation
-
-````
 
 ---
 
@@ -51,58 +76,32 @@ maze-runner/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/maze-runner.git
-````
-
+   git clone https://github.com/your-username/maze-game.git
+   ```
 2. Navigate into the project folder:
 
    ```bash
-   cd maze-runner
+   cd maze-game
    ```
 3. Open `index.html` in your browser.
-4. Start running through the maze! 🎉
+4. Start playing! 🎉
 
 ---
-
-## 🖼️ Screenshots
-
-### 🔮 Preview Screen
-
-![Screenshot_13-9-2025_223558_127 0 0 1](https://github.com/user-attachments/assets/5be96952-6830-4cbd-a63a-3d05078ddb09)
-
-
-### 🎮 Gameplay
-
-![Screenshot_13-9-2025_223640_127 0 0 1](https://github.com/user-attachments/assets/bbf99bd2-c8f8-49f7-8c86-22d42a033a7a)
-
-
-### 💀 Game Over
-
-![Screenshot_13-9-2025_223825_127 0 0 1](https://github.com/user-attachments/assets/3653dd87-d268-44cf-bd0d-a5d3e9fb4535)
-
-
----
-
-## 🛠️ Tech Stack
-
-* **HTML5** – Canvas rendering for maze generation
-* **CSS3** – Dark neon theme & UI styling
-* **JavaScript (ES6)** – Game logic, timer, scoring
-
----
-
 ## 📌 Future Enhancements
 
-* 🎵 Background music & sound effects
-* 🏆 High-score saving in `localStorage`
-* ⚡ Additional maze themes (forest, retro, galaxy)
-* 📱 Mobile-friendly controls (touch support)
-
+* 📱 Mobile-friendly controls – Add touch/swipe support for smartphones and tablets.
+* 🎨 Multiple maze themes – Different colors, textures, or difficulty themes.
+* ⚡ Power-ups & obstacles – Introduce items like speed boosts, traps, or teleporters.
+* 🏆 Leaderboard system – Track high scores for competitive play.
+* 🎵 Sound effects & music – Add background music and sound cues for movement, win, or game over.
+* ⏳ Timer variations – Introduce levels with shorter or dynamic countdowns for extra challenge.
+* 💾 Save & resume game – Allow players to save progress and continue later.
+* 🧭 Maze hints – Optional hints or path indicators for beginners.
+* 🎭 Customizable player & exit designs – Let players choose colors or icons.
 ---
 
-## 👩‍💻 Created by
+## 👨‍💻 Created by
 
-Ditsa Bakshi \[Student]
+Ditsa Bakshi[Student]
 
 ---
-
