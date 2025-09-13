@@ -1,84 +1,106 @@
-# 🌀 Maze Runner 🌀  
+# 🌀 Maze Runner 🌀
 
-Welcome to **Maze Runner**, a dark-themed maze survival game built using **HTML, CSS, and JavaScript**.  
-Escape the glowing labyrinth before time runs out — but beware: each level gets harder!  
-
----
-
-## 🎮 Features  
-✨ **Classic Line Maze** generated with recursive backtracking  
-✨ **Dark Neon Aesthetic** for a cyber-style vibe  
-✨ **Timer System** – Beat the maze before time hits zero  
-✨ **Scoring System** – Points increase with each level  
-✨ **Dynamic Difficulty** – Maze grows larger & harder as you progress  
-✨ **Popup Game Over Screen** with Restart option  
-✨ **WASD + Arrow Key Support** for smooth movement  
+A dark neon-themed **line maze escape game** built with **HTML, CSS, and JavaScript**.  
+Guide your glowing orb through the twisting paths, reach the exit before time runs out, and climb through progressively harder mazes!  
 
 ---
 
-## 🕹️ How to Play  
+## ✨ Features
 
-1. Press **▶ Start Game** to begin.  
-2. Use **Arrow Keys** or **WASD** to move your glowing orb.  
-3. Reach the **green glowing exit** before the timer runs out.  
-4. Each win = +1 level & extra score.  
-5. Survive as long as you can!  
+* 🌌 **Dark cyber aesthetic** with glowing walls and exit  
+* 🎮 Smooth movement with **Arrow Keys** or **WASD**  
+* ⏱️ **Countdown timer** resets each level  
+* 🏆 **Score system** that increases as you progress  
+* 📈 **Dynamic difficulty** – maze grows larger each level  
+* 💀 **Game Over popup** with restart option  
+* 🎯 Start button that disappears once the game begins  
 
 ---
 
-## 📸 Screenshots
+## 🎮 How to Play
 
-## Preview
-![Screenshot_13-9-2025_223558_127 0 0 1](https://github.com/user-attachments/assets/a7c97bbd-1a6c-488c-aaf8-f0e7d57362b4)
+1. Press the **▶ Start Game** button to begin.  
+2. Use the controls to navigate:
+   * ⬆️ / W → Up  
+   * ⬇️ / S → Down  
+   * ⬅️ / A → Left  
+   * ➡️ / D → Right  
+3. Find the **glowing green exit** before the timer hits zero.  
+4. Every level completed increases your score and difficulty.  
+5. If time runs out → **Game Over** popup will appear.  
+
+---
+
+## 📂 Project Structure
+
+```
+
+maze-runner/
+│── index.html      # Game structure
+│── style.css       # Dark neon theme styles
+│── script.js       # Maze generation & game logic
+│── README.md       # Project documentation
 
 ````
-## Game Screen
-![Screenshot_13-9-2025_223640_127 0 0 1](https://github.com/user-attachments/assets/9609ff70-d5d0-4212-85ad-586957827200)
-
-````
-## Game Over Screen
-![Screenshot_13-9-2025_223825_127 0 0 1](https://github.com/user-attachments/assets/19ef879e-6688-46ea-80f2-bfc987c2ba62)
 
 ---
 
-## 🚀 Play Online  
+## 🚀 Getting Started
 
-You can play directly from GitHub Pages after deployment.  
-👉 **[Live Demo Link Here](https://yourusername.github.io/maze-runner/)**  
+1. Clone the repository:
 
----
-
-## ⚡ Installation  
-
-1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/maze-runner.git
+   git clone https://github.com/your-username/maze-runner.git
 ````
 
-2. Open `index.html` in your browser.
-3. Enjoy! 🎉
+2. Navigate into the project folder:
+
+   ```bash
+   cd maze-runner
+   ```
+3. Open `index.html` in your browser.
+4. Start running through the maze! 🎉
+
+---
+
+## 🖼️ Screenshots
+
+### 🔮 Preview Screen
+
+![Screenshot_13-9-2025_223558_127 0 0 1](https://github.com/user-attachments/assets/09cbfed4-7eb3-4996-9d35-15d25968bdd2)
+
+
+### 🎮 Gameplay
+
+![Screenshot_13-9-2025_223640_127 0 0 1](https://github.com/user-attachments/assets/5a977a42-5120-4889-a165-1535275200a9)
+
+
+### 💀 Game Over
+
+![Screenshot_13-9-2025_223825_127 0 0 1](https://github.com/user-attachments/assets/49277261-adab-4da8-a004-1ccd9bb81db3)
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **HTML5** (Canvas API for maze rendering)
-* **CSS3** (Dark neon styling)
-* **JavaScript (ES6)** (Game logic, maze generation, timer, input handling)
+* **HTML5** – Canvas rendering for maze generation
+* **CSS3** – Dark neon theme & UI styling
+* **JavaScript (ES6)** – Game logic, timer, scoring
 
 ---
 
-## 🧩 Future Enhancements
+## 📌 Future Enhancements
 
-* 🔊 Add sound effects & background music
-* 🏆 High score tracking with local storage
-* 🎨 Different maze themes (cyberpunk, forest, retro)
-* 📱 Mobile-friendly controls
+* 🎵 Background music & sound effects
+* 🏆 High-score saving in `localStorage`
+* ⚡ Additional maze themes (forest, retro, galaxy)
+* 📱 Mobile-friendly controls (touch support)
 
 ---
 
-## ❤️ Credits
+## 👩‍💻 Created by
 
-Developed with 💻 + ☕ by [Ditsa Bakshi - Student](https://github.com/Ditsa18)
+Ditsa Bakshi \[Student]
 
 ---
