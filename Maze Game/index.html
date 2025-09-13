@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maze Runner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    
+    <!-- Rules -->
+    <div id="rules-box">
+      <h2>🌀 Maze Rules</h2>
+      <ul>
+        <li>Use <b>Arrow Keys</b> or <b>WASD</b> to move.</li>
+        <li>Reach the <span style="color:#0f0">green exit</span> before time runs out.</li>
+        <li>Each win gives you score = current level.</li>
+        <li>Each new maze gets harder (bigger size).</li>
+        <li>⏳ Timer resets to 60 each level.</li>
+      </ul>
+    </div>
+
+    <!-- Game Area -->
+    <div id="game-area">
+      <h1 id="game-title">Maze Runner</h1>
+      <canvas id="maze" width="600" height="600"></canvas>
+      <div id="message">Press Start to begin!</div>
+      <div id="startControls">
+        <button id="start-btn">▶ Start Game</button>
+      </div>
+    </div>
+
+    <!-- Timer / Score / Level -->
+    <div id="stats-box">
+      <p>⏳ Time: <span id="timer">60</span></p>
+      <p>⭐ Score: <span id="score">0</span></p>
+      <p>🎯 Level: <span id="level">1</span></p>
+    </div>
+  </div>
+
+  <!-- Game Over Popup -->
+  <div id="popup">
+    <div class="popup-content">
+      <h2>💀 Game Over</h2>
+      <p>Your Score: <span id="final-score">0</span></p>
+      <p>Level Reached: <span id="final-level">1</span></p>
+      <button id="restart">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
