@@ -81,7 +81,7 @@ Made with ❤️ using sweet pixels 🍬
 
 ---
 
-👩‍💻 Author
+# 👩‍💻 Author
 
 Built by [Ditsa Bakshi(Student)]
 
