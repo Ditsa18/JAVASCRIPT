@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Car Racing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚗 Car Racing Game</h1>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="rules-box">
+        <h2>Rules</h2>
+        <ol>
+          <li>Press <strong>←</strong> / <strong>→</strong> to change lanes.</li>
+          <li>Avoid other cars — collide and it's over.</li>
+          <li>Speed rises gradually with score.</li>
+          <li>Tap the on-screen arrows on mobile.</li>
+        </ol>
+      </div>
+
+      <div class="score-box">
+        <h2>Score</h2>
+        <div id="score">0</div>
+      </div>
+    </aside>
+
+    <section class="game-area" id="gameArea">
+      <div class="overlay start" id="startScreen">
+        <div class="panel">
+          <h2>Ready to Race?</h2>
+          <p>Use Arrow keys or the on-screen buttons to move.</p>
+          <button id="btnStart" class="btn">Start Game</button>
+        </div>
+      </div>
+
+      <div class="overlay gameover" id="gameOverScreen" style="display:none;">
+        <div class="panel">
+          <h2>Game Over 🚧</h2>
+          <p>Your Score: <span id="finalScore">0</span></p>
+          <button id="btnReplay" class="btn">Play Again</button>
+        </div>
+      </div>
+
+      <div class="mobile-controls" aria-hidden="true">
+        <button id="leftBtn" class="ctrl">◀</button>
+        <button id="rightBtn" class="ctrl">▶</button>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
